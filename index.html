@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    </head>
+<body>
+
+    <button onclick="baluSistema();">Spausti</button>
+    <script>
+        
+        
+       function baluSistema(){
+        let ivestis =  prompt("Kiek surinkai balų iš penkių galimų?");
+        let balai = Number(ivestis)
+       
+            switch(balai){
+                case 5:
+                    alert('Puiku 👍')
+                break;
+                    
+                case 4:
+                    alert('Gerai 🙌')
+                break;
+                    
+                case 3:
+                    alert('Vidutiniškai 👌')
+                break;
+                     
+                case 2:
+                    alert('Blogai 😭')
+                break;
+                    
+                case 1:
+                   alert('Labai blogai 😭')
+                break;
+                    
+                default:
+                    alert('Klaida.')
+                    
+            };
+       } ;
+        
+        
+        
+        
+        
+
+        
+        
+        
+      
+    </script>
+</body>
+</html>
